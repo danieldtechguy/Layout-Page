@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Second Project</title>
+        <meta name="viewport" content="width=device-
+        width, initial-scale=1.0">
+        <style>
+            *{
+                margin: 0px;
+                padding: 0px;
+                box-sizing: border-box;
+                outline: none;
+            }
+            .largediv{
+                height:1000px;
+                width: 1298px;
+                background-color: rgb(31, 28, 28);
+                border-radius: 10px;
+                margin-left: 25px;
+                margin-top: 40px;
+                opacity: 0.8;
+            }
+            .circlediv{
+                margin-left: 20px;
+            }
+            #red{
+                margin-top: 18px;
+                margin-left: 20px;
+                height: 20px;
+                width: 20px;
+                position: absolute;
+            }
+            #yellow{
+                margin-top: 18px;
+                margin-left: 55px;
+                height: 19px;
+                width: 20px;
+                position: absolute;
+            }
+            #green{
+                margin-top: 18px;
+                margin-left: 90px;
+                height: 20px;
+                width: 20px;
+                position: absolute;
+            }
+            #apps{
+                font-size: 1em;
+                color: rgb(117, 114, 114);
+                margin-top: 18px;
+                margin-left: 390px;
+                font-family: verdana;
+            }
+            #discover{
+                font-size: 1em;
+                color: rgb(117, 114, 114);
+                margin-top: 18px;
+                margin-left: 80px;
+                font-family: verdana;
+            }
+            #search{
+                font-size: 1em;
+                color: rgb(117, 114, 114);
+                margin-top: 15px;
+                margin-left:80px;
+                background-color: rgb(0, 0, 0);
+                border: 1px solid rgb(0, 0, 0);
+                font-family: verdana;
+                padding: 5px 10px;
+            }
+            .ad, .ncu{
+                display: flex;
+                margin-left: 17px;
+                margin-top: 3px;
+            }
+            #apps:hover{
+                color: rgb(255, 255, 255);
+                border-bottom: 2px solid rgb(255, 255, 255);
+                margin-top: 5px;
+            }
+            #discover:hover{
+                color: rgb(255, 255, 255);
+                border-bottom: 2px solid rgb(255, 255, 255);
+                margin-top: 5px;
+            }
+            #notify{
+                margin-top: 18px;
+                margin-left: 80px;
+                height: 20px;
+                width: 20px;
+                position: absolute;
+            }
+            #cloud{
+                margin-top: 18px;
+                margin-left: 180px;
+                height: 20px;
+                width: 20px;
+                position: absolute;
+            }
+            #user{
+                margin-top: 18px;
+                margin-left: 280px;
+                height: 30px;
+                width: 25px;
+                position: absolute;
+            }
+            .headdiv{
+                display: flex;
+            }
+            #bbottom{
+                width: 1298px;
+                border: 0.5px solid rgb(56, 54, 54);
+                margin-top: 15px;
+            }
+            .sectiondiv{
+                display: flex;
+            }
+            .smalldiv{
+                flex-direction: column;
+                color: rgb(255, 255, 255);
+            }
+            .appsdiv, .categoriesdiv, .fontsdiv, .rlinksdiv{
+                margin-top: 25px;
+                margin-left: 30px;
+            }
+            #apps1, #categories, #fonts, #rlinks{
+                color: rgb(117, 114, 114);
+            }
+            #allapps, #updates, #photo, #graphic,
+            #video, #illustrations, #uiux, #dar,
+            #mfonts, #stock, #tutorials, #portfolio,
+            #behance, #sforum{
+                margin-left: 60px;
+                margin-top: 10px;
+            }
+            #bline{
+                border: 0.2px solid rgb(56, 54, 54);
+                height: 700px;
+                margin-left: 200px;
+            }
+            .bigdiv{
+                flex-direction: column;
+            }
+            .div1{
+                display: flex;
+            }
+            #desktop{
+                font-size: 1em;
+                color: rgb(117, 114, 114);
+                margin-top: 18px;
+                margin-left: 270px;
+                font-family: verdana;
+            }
+            #mobile{
+                font-size: 1em;
+                color: rgb(117, 114, 114);
+                margin-top: 18px;
+                margin-left: 80px;
+                font-family: verdana;
+            }
+            #web{
+                font-size: 1em;
+                color: rgb(117, 114, 114);
+                margin-top: 18px;
+                margin-left: 80px;
+                font-family: verdana;
+            }
+            #desktop:hover{
+                color: rgb(255, 255, 255);
+                border-bottom: 2px solid rgb(255, 255, 255);
+                margin-top: 5px;
+            }
+            #mobile:hover{
+                color: rgb(255, 255, 255);
+                border-bottom: 2px solid rgb(255, 255, 255);
+                margin-top: 5px;
+            }
+            #web:hover{
+                color: rgb(255, 255, 255);
+                border-bottom: 2px solid rgb(255, 255, 255);
+                margin-top: 5px;
+            }
+            .div2{
+                height: 200px;
+                width: 815px;
+                background-image: linear-gradient(
+                    to top right, rgb(243, 55, 86) 10%,
+                    rgb(255, 255, 0));
+                margin-top: 5px;
+                margin-left: 40px;
+                border-radius: 10px;
+            }
+            #alogo{
+                position: absolute;
+                height: 20px;
+                width: 20px;
+                margin-top: 20px;
+                margin-left: 40px;
+            }
+            #advert{
+                position: absolute;
+                height: 150px;
+                width: 180px;
+                margin-top: 25px;
+                margin-left: 620px;
+            }
+            #astock{
+                margin-top: 5px;
+                margin-left: 70px;
+                color: rgb(255, 255, 255);
+                font-size: 0.8em;
+            }
+            #text{
+                margin-top: 15px;
+                margin-left: 40px;
+                color: rgb(255, 255, 255);
+                font-size: 0.7em;
+                line-height: 2;
+            }
+            #button1{
+                background-color: rgb(0, 0, 255);
+                color: rgb(255, 255, 255);
+                font-family: 'Lucida Sans';
+                font-size: 0.8em;
+                border: 1px solid rgb(0, 0, 255);
+                border-radius: 20px;
+                padding: 5px 15px;
+                margin-top: 15px;
+                margin-left: 40px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="largediv">
+            <div class="headdiv">
+                <div class="circlediv">
+                    <img id="red" src="image/red.png"
+                    alt="redcircle">
+                    <img id="yellow" src="image/yellow.png"
+                    alt="yellowcircle">
+                    <img id="green" src="image/green.png"
+                    alt="greencircle">
+                </div>
+                <div class="ad">
+                    <div id="apps">Apps</div>
+                    <div id="discover">Discover</div>
+                </div>
+                <input id="search" type="search" 
+                    value="search">
+                <div class="ncu">
+                    <img id="notify" src="image/notifyicon.png"
+                    alt="notifyicon">
+                    <img id="cloud" src="image/cloudicon.png"
+                    alt="cloudicon">
+                    <img id="user" src="image/usericon.png"
+                    alt="usericon">
+                </div>
+            </div>
+            <div id="bbottom"></div>
+            <div class="sectiondiv">
+                <div class="smalldiv">
+                    <div class="appsdiv">
+                        <div id="apps1">
+                            <b>Apps</b>
+                        </div>
+                        <div id="allapps"><b>
+                            All Apps </b>
+                        </div>
+                        <div id="updates">
+                            <b>Updates</b>
+                        </div>
+                    </div>
+
+                    <div class="categoriesdiv">
+                        <div id="categories">
+                            <b>Categories</b>
+                        </div>
+                        <div id="photo"><b>
+                            Photography </b>
+                        </div>
+                        <div id="graphic">
+                            <b>Graphic Design</b>
+                        </div>
+                        <div id="video">
+                            <b>Video</b>
+                        </div>
+                        <div id="illustrations">
+                            <b>illustrations</b>
+                        </div>
+                        <div id="uiux">
+                            <b>UI/UX</b>
+                        </div>
+                        <div id="dar">
+                            <b>3D/AR</b>
+                        </div>
+                    </div>
+
+                    <div class="fontsdiv">
+                        <div id="fonts">
+                            <b>Fonts</b>
+                        </div>
+                        <div id="mfonts">
+                            <b>Manage Fonts</b>
+                        </div>
+                    </div>
+
+                    <div class="rlinksdiv">
+                        <div id="rlinks">
+                            <b>Resource Links</b>
+                        </div>
+                        <div id="stock">
+                            <b>Stock</b>
+                        </div>
+                        <div id="tutorials">
+                            <b>Tutorials</b>
+                        </div>
+                        <div id="portfolio">
+                            <b>Portfolio</b>
+                        </div>
+                        <div id="behance">
+                            <b>Behance</b>
+                        </div>
+                        <div id="sforum">
+                            <b>Social Forum</b>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="bline"></div>
+
+                <div class="bigdiv">
+                    <div class="div1">
+                        <div id="desktop">
+                            Desktop
+                        </div>
+                        <div id="mobile">
+                            Mobile
+                        </div>
+                        <div id="web">
+                            Web
+                        </div>
+                    </div>
+                    <div class="div2">
+                        <img id="alogo" src="image/adobelogo.png"
+                        alt="adobelogo">
+                        <img id="advert" src="image/advert.png"
+                        alt="advertimage">
+                        <br>
+                        <div id="astock">
+                            <b>Adobe Stock</b>
+                        </div>
+                        <div id="text">
+                            <p>Grab yourself 10 free images
+                                from Adobe<br> Stock in a 30-day free
+                                trial plan and find<br>perfect image
+                                that will help you with your<br>
+                                new project.
+                            </p>
+                        </div>
+                        <div>
+                            <button id="button1" type="button">
+                                Start free trial
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
