@@ -1,0 +1,409 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+}
+.largediv{
+    height:680px;
+    width: 1298px;
+    background-color: rgb(31, 28, 28);
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-top: 40px;
+    opacity: 0.8;
+}
+.circlediv{
+    margin-left: 20px;
+}
+#red{
+    margin-top: 18px;
+    margin-left: 20px;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+}
+#yellow{
+    margin-top: 18px;
+    margin-left: 55px;
+    height: 19px;
+    width: 20px;
+    position: absolute;
+}
+#green{
+    margin-top: 18px;
+    margin-left: 90px;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+}
+#apps{
+    font-size: 1em;
+    color: rgb(117, 114, 114);
+    margin-top: 18px;
+    margin-left: 390px;
+    font-family: verdana;
+}
+#discover{
+    font-size: 1em;
+    color: rgb(117, 114, 114);
+    margin-top: 18px;
+    margin-left: 80px;
+    font-family: verdana;
+}
+#search{
+    font-size: 1em;
+    color: rgb(117, 114, 114);
+    margin-top: 15px;
+    margin-left:80px;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    font-family: verdana;
+    padding: 5px 10px;
+}
+.ad, .ncu{
+    display: flex;
+    margin-left: 17px;
+    margin-top: 3px;
+}
+#apps:hover{
+    color: rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    margin-top: 5px;
+}
+#discover:hover{
+    color: rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    margin-top: 5px;
+}
+#notify{
+    margin-top: 18px;
+    margin-left: 80px;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+}
+#cloud{
+    margin-top: 18px;
+    margin-left: 180px;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+}
+#user{
+    margin-top: 18px;
+    margin-left: 280px;
+    height: 30px;
+    width: 25px;
+    position: absolute;
+}
+.headdiv{
+    display: flex;
+}
+#bbottom{
+    width: 1298px;
+    border: 0.5px solid rgb(56, 54, 54);
+    margin-top: 15px;
+}
+.sectiondiv{
+    display: flex;
+}
+.smalldiv{
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+}
+.appsdiv, .categoriesdiv, .fontsdiv, .rlinksdiv{
+    margin-top: 25px;
+    margin-left: 30px;
+}
+#apps1, #categories, #fonts, #rlinks{
+    color: rgb(117, 114, 114);
+}
+#allapps, #updates, #photo, #graphic,
+#video, #illustrations, #uiux, #dar,
+#mfonts, #stock, #tutorials, #portfolio,
+#behance, #sforum{
+    margin-left: 60px;
+    margin-top: 10px;
+}
+#bline{
+    border: 0.2px solid rgb(56, 54, 54);
+    height: 617px;
+    margin-left: 200px;
+}
+.bigdiv{
+    flex-direction: column;
+}
+.div1{
+    display: flex;
+}
+#desktop{
+    font-size: 1em;
+    color: rgb(117, 114, 114);
+    margin-top: 18px;
+    margin-left: 270px;
+    font-family: verdana;
+}
+#mobile{
+    font-size: 1em;
+    color: rgb(117, 114, 114);
+    margin-top: 18px;
+    margin-left: 80px;
+    font-family: verdana;
+}
+#web{
+    font-size: 1em;
+    color: rgb(117, 114, 114);
+    margin-top: 18px;
+    margin-left: 80px;
+    font-family: verdana;
+}
+#desktop:hover{
+    color: rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    margin-top: 5px;
+}
+#mobile:hover{
+    color: rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    margin-top: 5px;
+}
+#web:hover{
+    color: rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    margin-top: 5px;
+}
+.div2{
+    height: 200px;
+    width: 815px;
+    background-image: linear-gradient(
+        to top right, rgb(243, 55, 86) 10%,
+        rgb(255, 255, 0));
+    margin-top: 5px;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+#alogo{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+#advert{
+    position: absolute;
+    height: 150px;
+    width: 180px;
+    margin-top: 25px;
+    margin-left: 620px;
+}
+#astock{
+    margin-top: 5px;
+    margin-left: 70px;
+    color: rgb(255, 255, 255);
+    font-size: 0.8em;
+}
+#text{
+    margin-top: 15px;
+    margin-left: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 0.7em;
+    line-height: 2;
+}
+#button1{
+    background-color: rgb(0, 0, 255);
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans';
+    font-size: 0.8em;
+    border: 1px solid rgb(0, 0, 255);
+    border-radius: 20px;
+    padding: 5px 15px;
+    margin-top: 15px;
+    margin-left: 40px;
+}
+#installed, #aiyp{
+    margin-left: 40px;
+    font-size: 1em;
+    color: rgb(117, 114, 114);
+    margin-top: 18px;
+    font-family: verdana;
+}
+.div3{
+    height: 125px;
+    width: 815px;
+    background-color: rgb(56, 54, 54);
+    margin-top: 12px;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+.subdiv3{
+    flex-direction: column;
+}
+.lildiv3, .lilldiv3, .lillldiv3{
+    display: flex;
+}
+#phshoplogo, #aillustratorlogo{
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+}
+#photoshop, #illustrator, #aeffects{
+    margin-left: 55px;
+    color: rgb(255, 255, 255);
+    font-size: 0.8em;
+}
+#green1, #blue{
+    margin-top: 15px;
+    margin-left: 350px;
+    height: 10px;
+    width: 10px;
+    position: absolute;
+}
+.updated{
+    margin-left: 260px;
+    color: rgb(255, 255, 255);
+    font-size: 0.8em;
+    margin-top: 13px;
+}
+#button2{
+    background-color: rgb(56, 54, 54);
+    color: rgb(255, 255, 255);
+    font-family: Verdana;
+    font-size: 0.8em;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 0px 15px;
+    margin-top: 7px;
+    margin-left: 275px;
+    height: 25px;
+}
+#white1{
+    margin-top: 18px;
+    margin-left: 774px;
+    height: 6px;
+    width: 6px;
+    position: absolute;
+}
+#white2{
+    margin-top: 18px;
+    margin-left: 782px;
+    height: 6px;
+    width: 6px;
+    position: absolute;
+}
+#white3{
+    margin-top: 18px;
+    margin-left: 790px;
+    height: 6px;
+    width: 6px;
+    position: absolute;
+}
+#line1{
+    border: 0.2px solid rgb(66, 65, 65);
+    width: 815px;
+    margin-top: 10px;
+}
+#button3{
+    background-color: rgb(0, 0, 255);
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans';
+    font-size: 0.8em;
+    border: 1px solid rgb(0, 0, 255);
+    border-radius: 20px;
+    padding: 2px 15px;
+    margin-top: 10px;
+    margin-left: 160px;
+}
+#aeffectslogo{
+    margin-top: 5px;
+    margin-left: 12px;
+    height: 30px;
+    width: 40px;
+    position: absolute;
+}
+#updatedd{
+    margin-left: 244px;
+    color: rgb(255, 255, 255);
+    font-size: 0.8em;
+    margin-top: 13px;
+}
+.lastdiv{
+    display: flex;
+}
+.ldiv1{
+    height: 135px;
+    width: 388px;
+    background-color: rgb(56, 54, 54);
+    margin-top: 10px;
+    margin-left: 40px;
+    border-radius: 10px;
+    flex-direction: column;
+    display: flex;
+}
+#pprologo, #idesignlogo{
+    margin-top: 12px;
+    margin-left: 25px;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+}
+#ppro, #indesign{
+    margin-left: 55px;
+    color: rgb(255, 255, 255);
+    font-size: 0.8em;
+}
+#emc, #dp{
+    margin-top: 20px;
+    margin-left: 27px;
+    color: rgb(255, 255, 255);
+    font-size: 0.7em;
+    line-height: 2;
+    font-family: verdana;
+}
+.lflex{
+    display: flex;
+}
+#button5{
+    background-color: rgb(0, 0, 255);
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans';
+    font-size: 0.8em;
+    border: 1px solid rgb(0, 0, 255);
+    border-radius: 20px;
+    padding: 2px 15px;
+    margin-top: 10px;
+    margin-left: 265px;
+}
+#white11{
+    margin-top: 18px;
+    margin-left: 350px;
+    height: 6px;
+    width: 6px;
+    position: absolute;
+}
+#white12{
+    margin-top: 18px;
+    margin-left: 360px;
+    height: 6px;
+    width: 6px;
+    position: absolute;
+}
+#white13{
+    margin-top: 18px;
+    margin-left: 370px;
+    height: 6px;
+    width: 6px;
+    position: absolute;
+}
+.ldiv2{
+    height: 135px;
+    width: 388px;
+    background-color: rgb(56, 54, 54);
+    margin-top: 10px;
+    margin-left: 40px;
+    border-radius: 10px;
+    flex-direction: column;
+    display: flex;
+}
